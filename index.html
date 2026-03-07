@@ -207,7 +207,7 @@
     <div class="container">
       <div class="video-banner-inner">
         <div class="video-wrapper">
-          <video controls playsinline preload="metadata" poster="images/ot_2.jpeg" style="image-orientation: none;">
+          <video controls playsinline preload="metadata" style="image-orientation: none;">
             <source src="media/video-about.mov" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -1163,9 +1163,9 @@
       // Animate hamburger
       const spans = navToggle.querySelectorAll('span');
       if (navLinks.classList.contains('active')) {
-        spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+        spans[0].style.transform = 'rotate(45deg) translate(6px, 6px)';
         spans[1].style.opacity = '0';
-        spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+        spans[2].style.transform = 'rotate(-45deg) translate(6px, -6px)';
       } else {
         spans[0].style.transform = '';
         spans[1].style.opacity = '';
